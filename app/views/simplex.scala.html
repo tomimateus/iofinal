@@ -1,0 +1,133 @@
+@main(title = "SIMPLEX SOLVER") {
+
+
+<div id="panels">
+
+    <div id="panelPaso1">
+
+        <h3>Datos </h3>
+
+        <p>
+            <label for="variables" style="margin-right: 40px;">N° de variables: </label>
+            <input id="variables" class="number" style="margin-right: 0px;">
+        </p>
+
+        <p>
+            <label for="restricciones">N° de restricciones: </label><input id="restricciones" class="number">
+        </p>
+        </br>
+        <button class="boton" onclick="nextStep()">Siguiente
+        </button>
+
+    </div>
+
+
+    <div id="panelPaso2">
+        <div><h3>Objetivo</h3></div>
+
+
+        <div id="panelDeFuncional">
+            <p id="funcional">
+            </p>
+        </div>
+
+        <p>
+            <input type="radio" name="obj" value="MAX" id="max" checked="true">Maximizar
+            <input type="radio" name="obj" value="MIN" id="min">Minimizar
+        </p>
+
+        <h3>Restricciones</h3>
+
+        <div id="panelDeRestricciones">
+
+        </div>
+
+        </br>
+
+        <button class="boton" onclick="previousStep()">Volver
+        </button>
+        <button class="boton" onclick="nextStep()">Resolver
+        </button>
+    </div>
+
+    <div id="panelEstandar">
+        <div id="panelDeFuncionalEstandar">
+            <h3>Funcional</h3>
+
+            <p id="funcionalEstandar">
+            </p>
+        </div>
+
+        <h3>Restricciones Estandar</h3>
+
+        <div id="panelDeRestriccionesEstandar">
+
+        </div>
+
+        <h3>Condiciones</h3>
+
+        <div id="condiciones">
+            <p>Se asumen variables reales y no negativas</p>
+
+            <p id="valorM"></p>
+        </div>
+
+    </div>
+
+
+    <div id="panelPaso3">
+
+
+        <h3><span id="iterationNumber"></span></h3>
+
+        <div id="panelDeTabla">
+        </div>
+
+        <div id="loadingPanel">
+            <p>
+                <img id="loadingGif" src='@routes.Assets.at("images/ajax-loader.gif")'>
+            </p>
+        </div>
+
+        </br>
+
+        <button class="boton" onclick="sendMessage('initial')"><<
+        </button>
+        <button class="boton" onclick="sendMessage('previous')"><
+        </button>
+
+
+        <button class="boton" onclick="sendMessage('next')">>
+        </button>
+        <button class="boton" onclick="sendMessage('optimal')">>>
+        </button>
+
+        </br> </br></br>
+
+        <button class="boton" onclick="previousStep()">Anterior
+        </button>
+        <button class="boton" onclick="nextStep()" disabled id="resultsBt" >Resultados
+        </button>
+
+    </div>
+
+    <div id="panelPaso4">
+        <h3 style="margin-bottom: 20px;">Resultados </h3>
+
+
+        <div id="resultados">
+        </div>
+        <div id="funcionalPaso4">
+        </div>
+        <div id="valorFuncional">
+        </div>
+
+        </br>
+
+        <button class="boton" onclick="previousStep()">Anterior
+        </button>
+    </div>
+
+</div>
+
+}

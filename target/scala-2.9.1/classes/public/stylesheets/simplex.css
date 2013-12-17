@@ -1,0 +1,390 @@
+header {
+    background-color: #37393C;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #852F2F));
+}
+
+header a {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #ffffff;
+    padding: 30px;
+    display: block;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #0077ff;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #A22121));
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.inputError {
+    border: 1px solid #f34e3e;
+    width: 40px;
+}
+
+#document.titulo {
+    display: none;
+}
+
+nav li {
+    list-style-type: none;
+    color: #ffffff;
+    margin: 0;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav li a:hover, header a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.slack {
+    color: green;
+}
+
+.artificial {
+    color: blue;
+}
+
+.constrain {
+    color: #ff4500;
+}
+
+.functional {
+    color: green;
+}
+
+#panelEstandar p, #panelEstandar span, #panelEstandar strong,
+#panelPaso3 p, #panelPaso3 span, #panelPaso3 strong {
+    font-size: 20px;
+}
+
+iframe {
+    /*position: absolute;*/
+    /*top: 12px;*/
+    /*height: 750px;*/
+    /*width: 97%;*/
+    /*z-index: -1;*/
+    /*border: none;*/
+    position: absolute;
+    top: 145px;
+    left: 10px;
+    width: 98%;
+    height: 80%;
+}
+
+nav li:hover {
+    background-color: #002d65;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #004aa3), color-stop(100%, #002d65));
+    border-radius: 25px;
+}
+
+.number {
+    width: 40px;
+}
+
+p label {
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.funCBox {
+    width: 90px;
+}
+
+.equalCBox, .restriccion, #coeficienteM {
+    width: 50px;
+}
+
+#tablaDeSimplex {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tablaDeSimplex td:first-child {
+    width: 35px;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid #000000;
+}
+
+#tablaDeSimplex td:last-child {
+    width: 45px;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid #000000;
+}
+
+#tablaDeSimplex td {
+    width: 66px;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid #000000;
+}
+
+.optimal {
+    border: #000000 3px solid !important;
+    background-color: rgba(248, 0, 0, 0.4);
+}
+
+#pivot {
+    background-color: #ff0000 !important;
+}
+
+#openPoly, #incompatible {
+    background-color: #999999 !important;
+}
+
+#thetaTie {
+    background-color: #999999;
+}
+
+.simplexBtn {
+    width: 50px;
+    height: 46px;
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 0.7;
+}
+
+.boton {
+    border-top: 1px solid #820305;
+    background: #000000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#940f0f), to(#000000));
+    background: -webkit-linear-gradient(top, #940f0f, #000000);
+    background: -moz-linear-gradient(top, #940f0f, #000000);
+    background: -ms-linear-gradient(top, #940f0f, #000000);
+    background: -o-linear-gradient(top, #940f0f, #000000);
+    padding: 11px 22px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.boton:hover {
+    border-top-color: #c71010;
+    background: #c71010;
+    color: #ccc;
+}
+
+.boton:active {
+    border-top-color: #bd171f;
+    background: #bd171f;
+}
+
+.simplexBtn:hover {
+    opacity: 1;
+}
+
+#tablaDeSimplex td:hover {
+    background-color: #999999;
+}
+
+#tablaDeSimplex.title {
+    font-weight: bold;
+}
+
+label {
+    float: none;
+}
+
+#panelPaso1, #panelPaso2, #panelPaso4, #panelEstandar, #loadingPanel {
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#panelPaso1 {
+    padding-top: 34px;
+    padding-bottom: 20px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 129px;
+    margin-left: 500px;
+    width: 332px;
+    height: auto;
+    border-radius: 8px;
+    -moz-border-radius: 8px; /* Firefox */
+    -webkit-border-radius: 8px; /* Safari y Chrome */
+
+    /* Otros estilos */
+    border: 2px solid #333;
+    background: #eee;
+
+}
+
+#panelPaso2 {
+    padding-top: 24px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+
+}
+
+#panelPaso3 {
+    padding-top: 24px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 40px;
+    height: auto;
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    padding: 5px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+#panelPaso4 {
+
+    padding-top: 0px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 40px;
+    margin-left: 406px;
+    width: 556px;
+    height: auto;
+
+}
+
+#loadingPanel {
+    margin: 120px;
+}
+
+#actividades, #marginales {
+    margin: 30px;
+}
+
+#panelPaso4 strong {
+    font-size: 20px;
+    color: #cc0000;
+}
+
+body {
+
+    background-image: url("../images/a_hexellence.png");
+
+}
+
+#leyenda p {
+    font-size: 18px;
+}
+
+#leyenda {
+    text-align: left;
+    padding-left: 15%;
+}
+
+#panels {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+#panelsPrincipal {
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+#simplexButtonsPanel {
+    margin-top: 25px;
+}
+
+#contacto h5 {
+    font-size: 20px;
+    color: #f94000;
+}
+
+#contacto {
+    margin-left: 30px;
+}
+
+button {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+}
+
+#univLogo {
+    position: absolute;
+    top: 140px;
+    left: 500px;
+}
+
+#leftBt, #rightBt {
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+#leftBt {
+    left: 10px;
+}
+
+#rightBt {
+    right: 10px;
+}
+
+#leftBt:hover, #rightBt:hover {
+    opacity: 1;
+}
+
+footer {
+    position: fixed;
+    color: #ffffff;
+    font-size: 18px;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+    padding-top: 18px;
+    padding-bottom: 13px;
+    background-color: #37393C;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #852F2F));
+    font-weight: bold;
+}
+
+#colaboradores h5 {
+    font-size: 14px;
+    color: #f94000;
+}
+
+#colaboradores h2 {
+    font-size: 18px;
+}
