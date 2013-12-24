@@ -567,16 +567,19 @@ function calculateStep5() {
     var cell3 = row.insertCell(2);
     var cell4 = row.insertCell(3);
     var cell5 = row.insertCell(4);
+    var cell6 = row.insertCell(5);
     cell1.innerHTML = "VARIABLE";
     cell2.innerHTML = "VALOR";
     cell3.innerHTML = "COEFICIENTE";
     cell4.innerHTML = "LÍMITE INFERIOR";
     cell5.innerHTML = "LÍMITE SUPERIOR";
+    cell6.innerHTML = "VALOR DUAL";
     cell1.style.fontWeight = "bold";
     cell2.style.fontWeight = "bold";
     cell3.style.fontWeight = "bold";
     cell4.style.fontWeight = "bold";
     cell5.style.fontWeight = "bold";
+    cell6.style.fontWeight = "bold";
 
 
     resultsDiv.append(table);
@@ -587,7 +590,7 @@ function calculateStep5() {
     var resultado = document.createElement("p");
     resultado.fontWeight = "bold";
     var zeta = matrix[2][rows - 1];
-    zeta = String(zeta);
+    zeta = String(Math.round(zeta * 100) / 100);
     zeta = zeta.replace("+", "");
 
     resultado.innerHTML = "Z = " + zeta;
@@ -622,14 +625,14 @@ function calculateStep5() {
                         var a = matrix[k][i];
                         //console.log(matrix[k][l]);
                         if (a != 0) {
-                            if ((z < 0 && a < 0) || (z<0 && a>0)) {
+                            if ((z < 0 && a < 0) || (z < 0 && a > 0)) {
                                 divisiones[divisiones.length] = (-1) * (z / a);
 
-                            } else{
+                            } else {
                                 divisiones[divisiones.length] = z / a;
                                 divisiones[divisiones.length] = z / a;
                             }
-                            console.log(divisiones[divisiones.length-1]);
+                            console.log(divisiones[divisiones.length - 1]);
 
                         }
                     }
@@ -682,7 +685,7 @@ function calculateStep5() {
                 var min = 100000000;
                 for (var c = 0; c < divisiones.length; c++) {
                     if (divisiones[c] < 0) {
-                        console.log("entre inf: "+divisiones[c]);
+                        console.log("entre inf: " + divisiones[c]);
                         var division = Math.abs(divisiones[c]);
                         if (division < min) {
                             min = division;
@@ -704,7 +707,7 @@ function calculateStep5() {
                 min = 100000000;
                 for (var c = 0; c < divisiones.length; c++) {
                     if (divisiones[c] > 0) {
-                        console.log("entre sup: "+divisiones[c]);
+                        console.log("entre sup: " + divisiones[c]);
                         var division = Math.abs(divisiones[c]);
                         if (division < min) {
                             min = division;
@@ -726,6 +729,8 @@ function calculateStep5() {
 
             //Analisis fin
 
+            var cell5 = row.insertCell(5);
+            cell5.innerHTML = 0;
 
             pos = pos + 1;
         }
@@ -768,12 +773,69 @@ function calculateStep5() {
                     cell4.innerHTML = "&infin;";
                 }
 
+                var cell5 = row.insertCell(5);
+                cell5.innerHTML = String(Math.round(matrix[i][rows - 1] * 100) / 100).replace("+", "");
 
             }
 
 
         }
     }
+
+
+    //slacks básicas
+
+    for (var i = 2; i < rows - 1; i++) {
+        if (matrix[1][i].indexOf("S") != -1) {
+            var row = table.insertRow(pos);
+            var cell1 = row.insertCell(0);
+            var cell2 = row.insertCell(1);
+            var cell3 = row.insertCell(2);
+            var cell4 = row.insertCell(3);
+            var cell5 = row.insertCell(4);
+            var cell6 = row.insertCell(5);
+            cell1.innerHTML = String(matrix[1][i]);
+            cell2.innerHTML = String(Math.round(matrix[2][i] * 100) / 100).replace("+", "");
+            cell3.innerHTML = "-";
+            cell4.innerHTML = "-";
+            cell5.innerHTML = "-";
+            cell6.innerHTML = "0";
+            pos = pos + 1;
+        }
+    }
+
+    //slacks no básicas
+
+    for (var i = 3; i < columns - 1; i++) {
+        if (matrix[i][rows - 1] != "0" && matrix[i][1].indexOf("L") == -1 && matrix[i][1].indexOf("U") == -1) {
+
+            if (matrix[i][1].indexOf("S") != -1) {
+
+                var row = table.insertRow(pos);
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                var cell3 = row.insertCell(2);
+                var cell4 = row.insertCell(3);
+                var cell5 = row.insertCell(4);
+                var cell6 = row.insertCell(5);
+                cell1.innerHTML = String(matrix[i][1]);
+                cell2.innerHTML = "0";
+                cell3.innerHTML = "-";
+                cell4.innerHTML = "-";
+                cell5.innerHTML = "-";
+                if (matrix[i][rows - 1].indexOf("*") != -1) {
+                    cell6.innerHTML = "0";
+                } else {
+                    cell6.innerHTML = String(Math.round(matrix[i][rows - 1] * 100) / 100).replace("+", "");
+                }
+                pos = pos + 1;
+
+            }
+
+        }
+    }
+
+
 }
 
 function calculateZijIndex(matrix) {
