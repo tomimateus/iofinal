@@ -4,3 +4,117 @@ Listening for HTTP on port 9000...
 2013-12-17 13:19:48,575 - [INFO] - from play in play-akka.actor.default-dispatcher-1 
 Application started (Dev)
 
+2014-07-12 16:18:22,369 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 16:18:22,525 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 16:49:19,036 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 16:49:19,142 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 16:52:44,852 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 16:52:44,956 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 16:53:30,984 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 16:53:31,098 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 16:55:27,347 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 16:55:27,459 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 20:49:03,099 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 20:49:03,232 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 20:49:43,764 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 20:49:43,869 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 20:53:30,241 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 20:53:30,357 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 20:55:49,217 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 20:55:49,330 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 21:04:29,095 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 21:04:29,201 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 21:16:16,471 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 21:16:16,576 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 22:25:01,027 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 22:25:01,131 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 22:27:41,667 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 22:27:41,779 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 22:32:25,559 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 22:32:25,664 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 22:35:07,835 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 22:35:07,940 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 22:36:28,874 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 22:36:28,990 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 22:38:06,195 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 22:38:06,307 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 22:40:27,420 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 22:40:27,525 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-07-12 22:42:30,048 - [INFO] - from play in main 
+Application started (Prod)
+
+2014-07-12 22:42:30,196 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+

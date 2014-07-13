@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0mCompiling 5 Scala sources and 6 Java sources to /Users/Tomi/Desktop/iofinal/target/scala-2.10/classes...[0m
+[0m[[33mwarn[0m] [0m/Users/Tomi/Desktop/simplex/conf/routes:7: unreachable code[0m
+[0m[[33mwarn[0m] [0mGET     /simplex                           controllers.AppController.index()[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
