@@ -91,7 +91,7 @@ Seq[Any](format.raw/*1.32*/("""
 </section>
 
   <div id="footer">
-      <div class="container text-center" style="background-color: rgb(71, 71, 71);width: 25%;padding-right: 0px;padding-left: 0px;border-radius: 5px;">
+      <div class="container text-center" style="background-color: rgb(71, 71, 71);width: 30%;padding-right: 0px;padding-left: 0px;border-radius: 5px;">
           <p class="text-muted" style="color: white;margin-bottom: 0px;padding-top: 10px;padding-bottom: 10px;padding-right: 10px;padding-left: 10px;">Final IO - 14/07/2014 - Kevin Stessens, Tomás Mateus</p>
       </div>
   </div>

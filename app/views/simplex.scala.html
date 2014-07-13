@@ -5,34 +5,31 @@
 
     <div id="panelPaso1">
 
-        <h3>SELECCIONAR CANTIDAD </h3>
+        <h3 style="margin-top: 0; margin-bottom: 20px; color: white;">SELECCIONAR CANTIDAD </h3>
 
-        <form accept-charset="UTF-8" action="/players" class="form-horizontal" id="new_player" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="CMXrI0MGkDWKu9011hx6zN5orQYzuoee7760PGr78YA="></div>
-
-
-            <div class="form-group">
-                <label class="col-md-4 control-label">Nombre: </label>
-                <div class="col-md-4">
-                    <input autofocus="autofocus" class="form-control" id="player_name" name="player[name]" required="required" type="text"></div>
+        <form accept-charset="UTF-8" action="/players" class="form-horizontal" id="new_player" method="post" style="margin-bottom: 0;">
+            <div style="margin:0;padding:0;display:inline">
+                <input name="utf8" type="hidden" value="✓">
+                <input name="authenticity_token" type="hidden" value="CMXrI0MGkDWKu9011hx6zN5orQYzuoee7760PGr78YA=">
             </div>
 
-            <input autocomplete="off" hidden="hidden" id="player_password" name="player[password]" type="password" value="12345678">
-            <input autocomplete="off" hidden="hidden" id="player_password_confirmation" name="player[password_confirmation]" type="password" value="12345678">
+            <div class="form-group" style="margin: 10px 10px 15px 10px;">
+                <label class="col-md-4 control-label" for="variables" style="color: white; float: left; text-align: left;">Variables: </label>
+                <div class="col-md-4" style="float: right;">
+                    <input autofocus="autofocus" class="form-control number" id="variables" required="required" type="text">
+                </div>
+            </div>
+            <div class="form-group" style="margin: 10px 10px 15px 10px;">
+                <label class="col-md-4 control-label" for="restricciones" style="color: white; float: left; text-align: left;">Restricciones: </label>
+                <div class="col-md-4" style="float: right;">
+                    <input autofocus="autofocus" class="form-control number" id="restricciones" required="required" type="text">
+                </div>
+            </div>
 
-            <div><input class="btn btn-danger" name="commit" type="submit" value="Ingresar"></div>
+            <div style="text-align: right;">
+                <button type="button" class="btn btn-danger" onclick="nextStep()">></button>
+            </div>
         </form>
-
-        <p>
-            <label for="variables" style="margin-right: 40px;">De Variables: </label>
-            <input id="variables" class="number" style="margin-right: 0px;">
-        </p>
-
-        <p>
-            <label for="restricciones">De Restricciones: </label><input id="restricciones" class="number">
-        </p>
-        </br>
-        <button class="boton" onclick="nextStep()">Siguiente
-        </button>
 
     </div>
 
@@ -100,7 +97,7 @@
 
         <div id="loadingPanel">
             <p>
-                <img id="loadingGif" src='@routes.Assets.at("images/ajax-loader.gif")'>
+                <img id="loadingGif" src='"""),_display_(Seq[Any](/*103.44*/routes/*103.50*/.Assets.at("images/ajax-loader.gif"))),format.raw/*103.86*/("""'>
             </p>
         </div>
 

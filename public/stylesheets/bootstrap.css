@@ -443,6 +443,7 @@ h6,
     font-weight: 400;
     line-height: 1.1;
     color: #333333;
+
 }
 
 h1 small,
@@ -480,8 +481,9 @@ h2,
 .h2,
 h3,
 .h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: white;
 }
 
 h1 small,
