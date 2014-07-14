@@ -8,7 +8,7 @@
  * Based on Bootstrap
 *//*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
-    font-family: sans-serif;
+    font-family: font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: inherit;
     font-weight: 400;
     line-height: 1.1;
-    color: #333333
+    color: #28b62c
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
@@ -384,8 +384,8 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 }
 
 h1, .h1, h2, .h2, h3, .h3 {
-    margin-top: 20px;
-    margin-bottom: 10px
+    margin-top: 0px;
+    margin-bottom: 20px
 }
 
 h1 small, .h1 small, h2 small, .h2 small, h3 small, .h3 small, h1 .small, .h1 .small, h2 .small, .h2 .small, h3 .small, .h3 .small {
@@ -393,8 +393,8 @@ h1 small, .h1 small, h2 small, .h2 small, h3 small, .h3 small, h1 .small, .h1 .s
 }
 
 h4, .h4, h5, .h5, h6, .h6 {
-    margin-top: 10px;
-    margin-bottom: 10px
+    margin-top: 0px;
+    margin-bottom: 20px
 }
 
 h4 small, .h4 small, h5 small, .h5 small, h6 small, .h6 small, h4 .small, .h4 .small, h5 .small, .h5 .small, h6 .small, .h6 .small {
@@ -675,7 +675,7 @@ address {
 }
 
 code, kbd, pre, samp {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 code {
@@ -1188,7 +1188,7 @@ pre code {
 
 @media (min-width: 992px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-        float: left
+        float: right
     }
 
     .col-md-12 {
@@ -1661,11 +1661,11 @@ th {
 }
 
 .table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
-    background-color: #f9f9f9
+    color: white
 }
 
 .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
-    background-color: #f5f5f5
+    color: white
 }
 
 table col[class*="col-"] {
@@ -1975,7 +1975,7 @@ textarea.input-lg, select[multiple].input-lg {
 }
 
 .has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline {
-    color: #ffffff
+    color: white
 }
 
 .has-success .form-control {
@@ -2001,7 +2001,7 @@ textarea.input-lg, select[multiple].input-lg {
 }
 
 .has-warning .help-block, .has-warning .control-label, .has-warning .radio, .has-warning .checkbox, .has-warning .radio-inline, .has-warning .checkbox-inline {
-    color: #ffffff
+    color: white
 }
 
 .has-warning .form-control {
@@ -2027,7 +2027,7 @@ textarea.input-lg, select[multiple].input-lg {
 }
 
 .has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline {
-    color: #ffffff
+    color: white
 }
 
 .has-error .form-control {
@@ -2066,7 +2066,6 @@ textarea.input-lg, select[multiple].input-lg {
 @media (min-width: 768px) {
     .form-inline .form-group {
         display: inline-block;
-        margin-bottom: 0;
         vertical-align: middle
     }
 
@@ -2107,6 +2106,8 @@ textarea.input-lg, select[multiple].input-lg {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 7px
+    float: left;
+    text-align: left
 }
 
 .form-horizontal .radio, .form-horizontal .checkbox {
@@ -2114,8 +2115,8 @@ textarea.input-lg, select[multiple].input-lg {
 }
 
 .form-horizontal .form-group {
-    margin-left: -15px;
-    margin-right: -15px
+    margin-left: 10px;
+    margin-right: 10px
 }
 
 .form-horizontal .form-control-static {
@@ -2124,7 +2125,8 @@ textarea.input-lg, select[multiple].input-lg {
 
 @media (min-width: 768px) {
     .form-horizontal .control-label {
-        text-align: right
+        text-align: left;
+        float: left
     }
 }
 
@@ -5986,7 +5988,7 @@ button.close {
     height: 20px;
     margin-top: -10px;
     margin-left: -10px;
-    font-family: serif
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .carousel-control .icon-prev:before {

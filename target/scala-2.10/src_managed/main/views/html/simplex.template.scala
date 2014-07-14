@@ -32,138 +32,105 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(title = "SIMPLEX SOLVER")/*1.32*/ {_disp
 <div id="panels">
 
     <div id="panelPaso1">
-
-        <h3 style="margin-top: 0; margin-bottom: 20px; color: white;">SELECCIONAR CANTIDAD </h3>
-
-                <form accept-charset="UTF-8" action="/players" class="form-horizontal" id="new_player" method="post" style="margin-bottom: 0;">
-                    <div style="margin:0;padding:0;display:inline">
-                        <input name="utf8" type="hidden" value="✓">
-                        <input name="authenticity_token" type="hidden" value="CMXrI0MGkDWKu9011hx6zN5orQYzuoee7760PGr78YA=">
-                    </div>
-
-                    <div class="form-group" style="margin: 10px 10px 15px 10px;">
-                        <label class="col-md-4 control-label" for="variables" style="color: white; float: left; text-align: left;">Variables: </label>
-                        <div class="col-md-4" style="float: right;">
-                            <input autofocus="autofocus" class="form-control number" id="variables" required="required" type="text">
-                        </div>
-                    </div>
-                    <div class="form-group" style="margin: 10px 10px 15px 10px;">
-                        <label class="col-md-4 control-label" for="restricciones" style="color: white; float: left; text-align: left;">Restricciones: </label>
-                        <div class="col-md-4" style="float: right;">
-                            <input autofocus="autofocus" class="form-control number" id="restricciones" required="required" type="text">
-                        </div>
-                    </div>
-
-                    <div style="text-align: right;">
-                        <button type="button" class="btn btn-danger" onclick="nextStep()">></button>
-                    </div>
-                </form>
-
+        <h3>Seleccionar Cantidad</h3>
+        <form accept-charset="UTF-8" action="/players" class="form-horizontal" id="new_player" method="post">
+            <div id="a-div">
+                <input name="utf8" type="hidden" value="✓">
+                <input name="authenticity_token" type="hidden" value="CMXrI0MGkDWKu9011hx6zN5orQYzuoee7760PGr78YA=">
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="variables"> Variables: </label>
+                <div class="col-md-4">
+                    <input autofocus="autofocus" class="form-control number" id="variables" required="required" type="text">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="restricciones">Restricciones: </label>
+                <div class="col-md-4">
+                    <input autofocus="autofocus" class="form-control number" id="restricciones" required="required" type="text">
+                </div>
+            </div>
+        </form>
+        <div class="b-div">
+            <button type="button" class="btn btn-success" onclick="nextStep()">></button>
+        </div>
     </div>
 
-
     <div id="panelPaso2">
-        <div><h3>Objetivo</h3></div>
-
-
+        <h3>Definir Objetivo</h3>
         <div id="panelDeFuncional">
             <p id="funcional">
             </p>
         </div>
-
         <p>
-            <input type="radio" name="obj" value="MAX" id="max" checked="true">Maximizar
-            <input type="radio" name="obj" value="MIN" id="min">Minimizar
+            <input type="radio" name="obj" value="MAX" id="max" checked="true">MAX
+            <input type="radio" name="obj" value="MIN" id="min">MIN
         </p>
-
-        <h3>Restricciones</h3>
-
+        <h3>Definir Restricciones</h3>
         <div id="panelDeRestricciones">
-
         </div>
-
         </br>
-
-        <button class="boton" onclick="previousStep()">Volver
-        </button>
-        <button class="boton" onclick="nextStep()">Resolver
-        </button>
+        <div>
+        <div class="b-div" style="display: inline-block; float: left;">
+            <button type="button" class="btn btn-success" onclick="previousStep()"><</button>
+        </div>
+        <div class="b-div">
+            <button type="button" class="btn btn-success" onclick="nextStep()">></button>
+        </div>
+        </div>
     </div>
 
     <div id="panelEstandar">
         <div id="panelDeFuncionalEstandar">
             <h3>Funcional</h3>
-
             <p id="funcionalEstandar">
             </p>
         </div>
-
         <h3>Restricciones Estandar</h3>
-
         <div id="panelDeRestriccionesEstandar">
-
         </div>
-
         <h3>Condiciones</h3>
-
         <div id="condiciones">
             <p>Se asumen variables reales y no negativas</p>
-
             <p id="valorM"></p>
         </div>
-
     </div>
 
-
     <div id="panelPaso3">
-
-
         <h3><span id="iterationNumber"></span></h3>
-
         <div id="panelDeTabla">
         </div>
-
         <div id="loadingPanel">
             <p>
                 <img id="loadingGif" src='"""),_display_(Seq[Any](/*103.44*/routes/*103.50*/.Assets.at("images/ajax-loader.gif"))),format.raw/*103.86*/("""'>
             </p>
         </div>
-
         </br>
-
-        <button class="boton" onclick="sendMessage('initial')"><<
-        </button>
-        <button class="boton" onclick="sendMessage('previous')"><
-        </button>
-
-
-        <button class="boton" onclick="sendMessage('next')">>
-        </button>
-        <button class="boton" onclick="sendMessage('optimal')">>>
-        </button>
-
-        </br> </br></br>
-
-        <button class="boton" onclick="nextStep()" disabled id="resultsBt" >Resultados
-        </button>
-
+        <div>
+            <div class="b-div" style="display: inline-block; float: left;">
+                <button type="button" class="btn btn-success" onclick="sendMessage('previous')"><</button>
+            </div>
+            <div class="b-div">
+                <button type="button" class="btn btn-success" onclick="sendMessage('next')">></button>
+            </div>
+            <div class="b-div">
+                <button type="button" class="btn btn-success" onclick="nextStep()">Resultados</button>
+            </div>
+        </div>
     </div>
 
     <div id="panelPaso4">
-        <h3 style="margin-bottom: 20px;">Resultados </h3>
-
-
+        <h3>Resultados </h3>
         <div id="resultados">
         </div>
         <div id="funcionalPaso4">
         </div>
         <div id="valorFuncional">
         </div>
-
         </br>
-
-        <button class="boton" onclick="previousStep()">Anterior
-        </button>
+        <div class="b-div"  style="display: inline-block; float: left;">
+            <button type="button" class="btn btn-success" onclick="previousStep()"><</button>
+        </div>
     </div>
 
 </div>

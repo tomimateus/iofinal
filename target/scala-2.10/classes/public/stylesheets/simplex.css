@@ -115,30 +115,31 @@ p label {
     width: 35px;
     text-align: center;
     vertical-align: middle;
-    border: 3px solid #000000;
+    border: 3px solid #6B6B6B;
 }
 
 #tablaDeSimplex td:last-child {
     width: 45px;
     text-align: center;
     vertical-align: middle;
-    border: 3px solid #000000;
+    border: 3px solid #6B6B6B;
 }
 
 #tablaDeSimplex td {
     width: 66px;
     text-align: center;
     vertical-align: middle;
-    border: 3px solid #000000;
+    border: 3px solid #6B6B6B;
 }
 
 .optimal {
-    border: #000000 3px solid !important;
-    background-color: rgba(248, 0, 0, 0.4);
+    border: #6B6B6B 3px solid !important;
+    color: #28b62c;
 }
 
 #pivot {
-    background-color: #ff0000 !important;
+    background-color: #28b62c !important;
+    color: white
 }
 
 #openPoly, #incompatible {
@@ -217,12 +218,12 @@ label {
     margin-bottom: 100px;
 }
 
-#panelPaso1 {
+#panelPaso1, #panelPaso2 {
     padding-top: 34px;
     padding-bottom: 20px;
     text-align: center;
     vertical-align: top;
-    margin-top: 129px;
+    margin-top: 90px;
     width: 332px;
     height: auto;
     border-radius: 6px;
@@ -232,51 +233,25 @@ label {
     margin-left: auto;
     margin-right: auto;
     border-width: 0 1px 4px 1px;
-    background-color: rgb(71, 71, 71);
+    background-color: rgba(0, 0, 0, 0.88);
 }
 
-#panelPaso2 {
-    padding-top: 24px;
+#panelPaso3, #panelPaso4 {
+    padding-top: 34px;
+    padding-bottom: 20px;
     text-align: center;
     vertical-align: top;
-    margin-top: 40px;
+    margin-top: 90px;
+    width: 500px;
+    height: auto;
+    border-radius: 6px;
+    -moz-border-radius: 8px; /* Firefox */
+    -webkit-border-radius: 8px; /* Safari y Chrome */
+
     margin-left: auto;
     margin-right: auto;
-    width: auto;
-    height: auto;
-
-}
-
-#panelPaso3 {
-    padding-top: 24px;
-    text-align: center;
-    vertical-align: top;
-    margin-top: 40px;
-    height: auto;
-    display: none;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    padding: 5px;
-    width: 100%;
-    padding: 5px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-
-}
-
-#panelPaso4 {
-
-    padding-top: 0px;
-    text-align: center;
-    vertical-align: top;
-    margin-top: 40px;
-    margin-left: 406px;
-    width: 556px;
-    height: auto;
-
+    border-width: 0 1px 4px 1px;
+    background-color: rgba(0, 0, 0, 0.88);
 }
 
 #loadingPanel {
@@ -384,4 +359,42 @@ footer {
 
 #colaboradores h2 {
     font-size: 18px;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+.a-div {
+    margin: 0;
+    padding: 0;
+    display: inline
+}
+
+.b-div {
+    text-align: right
+}
+
+.control-label {
+    color: white
+}
+
+.form-control-2 {
+    height: 36px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.z-p {
+    color: #28b62c
 }

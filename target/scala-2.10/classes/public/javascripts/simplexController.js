@@ -146,19 +146,19 @@ function calculateStep2() {
     var numberPattern = /(^[1-9]\d*$)/;
     if (!numberPattern.test(variables) || !numberPattern.test(restricciones)) {
         if (!numberPattern.test(variables)) $("#variables").attr("class", "inputError");
-        else $("#variables").attr("class", "number");
+        else $("#variables").attr("class", "form-control-2 number");
 
         if (!numberPattern.test(restricciones)) $("#restricciones").attr("class", "inputError");
-        else $("#restricciones").attr("class", "number");
+        else $("#restricciones").attr("class", "form-control-2 number");
 
 
         actualStep--;
     } else if (variables > 9 || restricciones > 9) {
         if (variables > 9) $("#variables").attr("class", "inputError");
-        else $("#variables").attr("class", "number");
+        else $("#variables").attr("class", "form-control-2 number");
 
         if (restricciones > 9) $("#restricciones").attr("class", "inputError");
-        else $("#restricciones").attr("class", "number");
+        else $("#restricciones").attr("class", "form-control-2 number");
 
         smoke.signal("Maximo valor: 9");
         actualStep--;
@@ -172,7 +172,7 @@ function calculateStep2() {
         for (var i = 0; i < variables; i++) {
             var input = document.createElement("input");
             input.setAttribute("id", "f_x" + (i + 1));
-            input.setAttribute("class", "number");
+            input.setAttribute("class", "form-control-2 number");
 
             var label = document.createElement("span");
             label.innerHTML = " X" + (i + 1);
@@ -189,13 +189,13 @@ function calculateStep2() {
             var restriccion = document.createElement("p");
 
             var restriccionLabel = document.createElement("span");
-            restriccionLabel.innerHTML = " R" + i + ") ";
+            restriccionLabel.innerHTML = i + ". ";
             restriccion.appendChild(restriccionLabel);
 
             for (var j = 0; j < variables; j++) {
                 var input = document.createElement("input");
                 input.setAttribute("id", "r" + (i + 1) + "_" + "x" + (j + 1));
-                input.setAttribute("class", "number");
+                input.setAttribute("class", "form-control-2 number");
 
                 var label = document.createElement("span");
                 label.innerHTML = " X" + (j + 1);
@@ -235,7 +235,7 @@ function calculateStep2() {
 
             var input = document.createElement("input");
             input.setAttribute("id", "r" + (i + 1) + "_" + "y");
-            input.setAttribute("class", "number");
+            input.setAttribute("class", "form-control-2 number");
 
             restriccion.appendChild(input);
 
@@ -274,7 +274,7 @@ function calculateStep3() {
     var restricciones = $("#restricciones").val();
     var error = checkInputErrors(variables, restricciones);
     if (error) {
-        if (lastErrorId) lastErrorId.attr("class", "number");
+        if (lastErrorId) lastErrorId.attr("class", "form-control-2 number");
 
         error.attr("class", "inputError");
         lastErrorId = error;
@@ -571,9 +571,9 @@ function calculateStep5() {
     cell1.innerHTML = "VARIABLE";
     cell2.innerHTML = "VALOR";
     cell3.innerHTML = "COEFICIENTE";
-    cell4.innerHTML = "LÍMITE INFERIOR";
-    cell5.innerHTML = "LÍMITE SUPERIOR";
-    cell6.innerHTML = "VALOR DUAL";
+    cell4.innerHTML = "LÍM. INFERIOR";
+    cell5.innerHTML = "LÍM. SUPERIOR";
+    cell6.innerHTML = "VAL. DUAL";
     cell1.style.fontWeight = "bold";
     cell2.style.fontWeight = "bold";
     cell3.style.fontWeight = "bold";
@@ -589,6 +589,7 @@ function calculateStep5() {
 
     var resultado = document.createElement("p");
     resultado.fontWeight = "bold";
+    resultado.setAttribute("class", "z-p");
     var zeta = matrix[2][rows - 1];
     zeta = String(Math.round(zeta * 100) / 100);
     zeta = zeta.replace("+", "");
