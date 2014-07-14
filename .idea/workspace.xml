@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ac0293d-dc46-465c-8979-595aac2818ba" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RUNNING_PID" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/simplex.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/simplex.template.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/cache/project/global/copy-assets" afterPath="$PROJECT_DIR$/target/scala-2.10/cache/project/global/copy-assets" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/cache/project/compile/inc_compile" afterPath="$PROJECT_DIR$/target/scala-2.10/cache/project/compile/inc_compile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/simplex$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/simplex$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/views/html/simplex$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/views/html/simplex$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RUNNING_PID" afterPath="$PROJECT_DIR$/RUNNING_PID" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.scala.html" afterPath="$PROJECT_DIR$/app/views/main.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/cache/project/compile/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.10/cache/project/compile/play_instrumentation" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/simplex.css" afterPath="$PROJECT_DIR$/public/stylesheets/simplex.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/stylesheets/simplex.css" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/public/stylesheets/simplex.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/simplex.scala.html" afterPath="$PROJECT_DIR$/app/views/simplex.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="simplex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,13 +77,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.scala.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.scala.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="1239" selection-end="1239" vertical-scroll-proportion="-0.0" vertical-offset="255" max-vertical-offset="1335">
+            <state line="19" column="23" selection-start="1324" selection-end="1324" vertical-scroll-proportion="-0.505618" vertical-offset="555" max-vertical-offset="1320">
               <folding>
-                <marker date="1405222429000" expanded="true" signature="1975:2104" placeholder="..." />
-                <marker date="1405222429000" expanded="true" signature="2015:2099" placeholder="..." />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1405353709000" expanded="true" signature="1975:2104" placeholder="..." />
+                <marker date="1405353709000" expanded="true" signature="2015:2099" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -82,20 +93,30 @@
       <file leaf-file-name="simplex.scala.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/simplex.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="6" selection-start="3914" selection-end="3914" vertical-scroll-proportion="-66.875" vertical-offset="0" max-vertical-offset="1725">
+            <state line="107" column="6" selection-start="3940" selection-end="3940" vertical-scroll-proportion="-18.208334" vertical-offset="1168" max-vertical-offset="1725">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simplex.template.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="simplex.template.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/simplex.template.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="72" selection-start="3859" selection-end="3859" vertical-scroll-proportion="0.6576577" vertical-offset="1270" max-vertical-offset="2430">
+            <state line="135" column="6" selection-start="882" selection-end="4762" vertical-scroll-proportion="-5.769231" vertical-offset="1875" max-vertical-offset="2430">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.template.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/main.template.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="840" selection-end="5405" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2025">
               <folding />
             </state>
           </provider>
@@ -122,7 +143,7 @@
       <file leaf-file-name="simplex.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/simplex.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="245" column="17" selection-start="4656" selection-end="4656" vertical-scroll-proportion="-11.884615" vertical-offset="3366" max-vertical-offset="6075">
+            <state line="28" column="13" selection-start="636" selection-end="636" vertical-scroll-proportion="118.26923" vertical-offset="3495" max-vertical-offset="6075">
               <folding />
             </state>
           </provider>
@@ -141,14 +162,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/main.scala.html" />
         <option value="$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/main.template.scala" />
         <option value="$PROJECT_DIR$/public/stylesheets/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/bootstrap.css" />
         <option value="$PROJECT_DIR$/public/javascripts/simplexController.js" />
-        <option value="$PROJECT_DIR$/app/views/simplex.scala.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/simplex.css" />
         <option value="$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/simplex.template.scala" />
+        <option value="$PROJECT_DIR$/public/stylesheets/simplex.css" />
+        <option value="$PROJECT_DIR$/app/views/simplex.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/main.scala.html" />
       </list>
     </option>
   </component>
@@ -200,6 +221,98 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="iofinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iofinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iofinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala-2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src_managed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iofinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala-2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src_managed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iofinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala-2.10" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,8 +598,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="0" selection-start="2776" selection-end="2776" vertical-scroll-proportion="0.0" vertical-offset="598" max-vertical-offset="1335">
           <folding>
-            <marker date="1405222429000" expanded="true" signature="1975:2104" placeholder="..." />
-            <marker date="1405222429000" expanded="true" signature="2015:2099" placeholder="..." />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1405353709000" expanded="true" signature="1975:2104" placeholder="..." />
+            <marker date="1405353709000" expanded="true" signature="2015:2099" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -497,6 +611,7 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -520,8 +635,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="0" selection-start="2776" selection-end="2776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
           <folding>
-            <marker date="1405222429000" expanded="true" signature="1975:2104" placeholder="..." />
-            <marker date="1405222429000" expanded="true" signature="2015:2099" placeholder="..." />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1405353709000" expanded="true" signature="1975:2104" placeholder="..." />
+            <marker date="1405353709000" expanded="true" signature="2015:2099" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -532,6 +648,7 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -561,11 +678,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/main.template.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="158" selection-start="4176" selection-end="4176" vertical-scroll-proportion="2.2358491" vertical-offset="210" max-vertical-offset="2025" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/simplexController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="575" column="27" selection-start="19387" selection-end="19387" vertical-scroll-proportion="-1.0136611" vertical-offset="8996" max-vertical-offset="18225" />
@@ -585,38 +697,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/simplex.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1335">
-          <folding>
-            <marker date="1405222429000" expanded="true" signature="1975:2104" placeholder="..." />
-            <marker date="1405222429000" expanded="true" signature="2015:2099" placeholder="..." />
-          </folding>
+        <state line="28" column="13" selection-start="636" selection-end="636" vertical-scroll-proportion="118.26923" vertical-offset="3495" max-vertical-offset="6075">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/simplex.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="6" selection-start="3914" selection-end="3914" vertical-scroll-proportion="-66.875" vertical-offset="0" max-vertical-offset="1725">
+        <state line="107" column="6" selection-start="3940" selection-end="3940" vertical-scroll-proportion="-18.208334" vertical-offset="1168" max-vertical-offset="1725">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/simplex.css">
+    <entry file="file://$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/simplex.template.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="245" column="17" selection-start="4656" selection-end="4656" vertical-scroll-proportion="-11.884615" vertical-offset="3366" max-vertical-offset="6075">
+        <state line="135" column="6" selection-start="882" selection-end="4762" vertical-scroll-proportion="-5.769231" vertical-offset="1875" max-vertical-offset="2430">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/simplex.template.scala">
+    <entry file="file://$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/main.template.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="72" selection-start="3859" selection-end="3859" vertical-scroll-proportion="0.6576577" vertical-offset="1270" max-vertical-offset="2430">
+        <state line="30" column="0" selection-start="840" selection-end="5405" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2025">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="1324" selection-end="1324" vertical-scroll-proportion="-0.505618" vertical-offset="555" max-vertical-offset="1320">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1405353709000" expanded="true" signature="1975:2104" placeholder="..." />
+            <marker date="1405353709000" expanded="true" signature="2015:2099" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
