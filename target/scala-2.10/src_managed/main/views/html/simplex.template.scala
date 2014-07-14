@@ -128,8 +128,8 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(title = "SIMPLEX SOLVER")/*1.32*/ {_disp
         <div id="valorFuncional">
         </div>
         </br>
-        <div class="b-div"  style="display: inline-block; float: left;">
-            <button type="button" class="btn btn-success" onclick="previousStep()"><</button>
+        <div class="b-div"  style="margin-bottom: 30px">
+            <button style="float: left" type="button" class="btn btn-success" onclick="previousStep()"><</button>
         </div>
     </div>
 
