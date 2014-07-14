@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ac0293d-dc46-465c-8979-595aac2818ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/cache/project/global/copy-assets" afterPath="$PROJECT_DIR$/target/scala-2.10/cache/project/global/copy-assets" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/cache/project/compile/inc_compile" afterPath="$PROJECT_DIR$/target/scala-2.10/cache/project/compile/inc_compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/simplex$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/simplex$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes_managed/views/html/simplex$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes_managed/views/html/simplex$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RUNNING_PID" afterPath="$PROJECT_DIR$/RUNNING_PID" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.scala.html" afterPath="$PROJECT_DIR$/app/views/main.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/cache/project/compile/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.10/cache/project/compile/play_instrumentation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/simplex.css" afterPath="$PROJECT_DIR$/public/stylesheets/simplex.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/public/stylesheets/simplex.css" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/public/stylesheets/simplex.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/simplex.scala.html" afterPath="$PROJECT_DIR$/app/views/simplex.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="simplex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,11 +69,11 @@
       <file leaf-file-name="main.scala.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="23" selection-start="1324" selection-end="1324" vertical-scroll-proportion="-0.505618" vertical-offset="555" max-vertical-offset="1320">
+            <state line="16" column="35" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.4494382" vertical-offset="0" max-vertical-offset="1320">
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1405353709000" expanded="true" signature="1975:2104" placeholder="..." />
-                <marker date="1405353709000" expanded="true" signature="2015:2099" placeholder="..." />
+                <marker date="1405353922000" expanded="true" signature="1976:2105" placeholder="..." />
+                <marker date="1405353922000" expanded="true" signature="2016:2100" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -93,13 +82,8 @@
       <file leaf-file-name="simplex.scala.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/simplex.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="6" selection-start="3940" selection-end="3940" vertical-scroll-proportion="-18.208334" vertical-offset="1168" max-vertical-offset="1725">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="107" column="6" selection-start="3940" selection-end="3940" vertical-scroll-proportion="0.0" vertical-offset="1168" max-vertical-offset="1725">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,7 +91,7 @@
       <file leaf-file-name="simplex.template.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/simplex.template.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="6" selection-start="882" selection-end="4762" vertical-scroll-proportion="-5.769231" vertical-offset="1875" max-vertical-offset="2430">
+            <state line="135" column="6" selection-start="882" selection-end="4762" vertical-scroll-proportion="0.0" vertical-offset="1875" max-vertical-offset="2430">
               <folding />
             </state>
           </provider>
@@ -143,7 +127,7 @@
       <file leaf-file-name="simplex.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/simplex.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="13" selection-start="636" selection-end="636" vertical-scroll-proportion="118.26923" vertical-offset="3495" max-vertical-offset="6075">
+            <state line="28" column="13" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="3495" max-vertical-offset="6075">
               <folding />
             </state>
           </provider>
@@ -437,19 +421,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -475,6 +446,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -596,11 +580,64 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1405353922000" expanded="true" signature="1976:2105" placeholder="..." />
+            <marker date="1405353922000" expanded="true" signature="2016:2100" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/simplex.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="6" selection-start="3940" selection-end="3940" vertical-scroll-proportion="0.0" vertical-offset="1168" max-vertical-offset="1725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/simplex.template.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="6" selection-start="882" selection-end="4762" vertical-scroll-proportion="0.0" vertical-offset="1875" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/main.template.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="840" selection-end="5405" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1845" column="42" selection-start="26091" selection-end="26091" vertical-scroll-proportion="0.0" vertical-offset="27521" max-vertical-offset="111765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="684" column="26" selection-start="10999" selection-end="11002" vertical-scroll-proportion="0.0" vertical-offset="10144" max-vertical-offset="98385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/simplex.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="3495" max-vertical-offset="6075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="0" selection-start="2776" selection-end="2776" vertical-scroll-proportion="0.0" vertical-offset="598" max-vertical-offset="1335">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1405353709000" expanded="true" signature="1975:2104" placeholder="..." />
-            <marker date="1405353709000" expanded="true" signature="2015:2099" placeholder="..." />
+            <marker date="1405353922000" expanded="true" signature="1976:2105" placeholder="..." />
+            <marker date="1405353922000" expanded="true" signature="2016:2100" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -608,12 +645,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/simplex.scala.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="12" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2325">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -636,8 +668,8 @@
         <state line="68" column="0" selection-start="2776" selection-end="2776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1405353709000" expanded="true" signature="1975:2104" placeholder="..." />
-            <marker date="1405353709000" expanded="true" signature="2015:2099" placeholder="..." />
+            <marker date="1405353922000" expanded="true" signature="1976:2105" placeholder="..." />
+            <marker date="1405353922000" expanded="true" signature="2016:2100" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -645,12 +677,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/simplex.scala.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="2265">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -699,26 +726,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/simplex.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="636" selection-end="636" vertical-scroll-proportion="118.26923" vertical-offset="3495" max-vertical-offset="6075">
+        <state line="28" column="13" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="3495" max-vertical-offset="6075">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/simplex.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="6" selection-start="3940" selection-end="3940" vertical-scroll-proportion="-18.208334" vertical-offset="1168" max-vertical-offset="1725">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="107" column="6" selection-start="3940" selection-end="3940" vertical-scroll-proportion="0.0" vertical-offset="1168" max-vertical-offset="1725">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/scala-2.10/src_managed/main/views/html/simplex.template.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="6" selection-start="882" selection-end="4762" vertical-scroll-proportion="-5.769231" vertical-offset="1875" max-vertical-offset="2430">
+        <state line="135" column="6" selection-start="882" selection-end="4762" vertical-scroll-proportion="0.0" vertical-offset="1875" max-vertical-offset="2430">
           <folding />
         </state>
       </provider>
@@ -732,11 +754,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="1324" selection-end="1324" vertical-scroll-proportion="-0.505618" vertical-offset="555" max-vertical-offset="1320">
+        <state line="16" column="35" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.4494382" vertical-offset="0" max-vertical-offset="1320">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1405353709000" expanded="true" signature="1975:2104" placeholder="..." />
-            <marker date="1405353709000" expanded="true" signature="2015:2099" placeholder="..." />
+            <marker date="1405353922000" expanded="true" signature="1976:2105" placeholder="..." />
+            <marker date="1405353922000" expanded="true" signature="2016:2100" placeholder="..." />
           </folding>
         </state>
       </provider>
