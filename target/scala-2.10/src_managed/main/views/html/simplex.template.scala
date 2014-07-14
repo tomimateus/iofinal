@@ -113,7 +113,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(title = "SIMPLEX SOLVER")/*1.32*/ {_disp
             <div class="b-div">
                 <button type="button" class="btn btn-success" onclick="sendMessage('next')">></button>
             </div>
-            <div class="b-div">
+            <div class="b-div" style="text-align: center">
                 <button type="button" class="btn btn-success" onclick="nextStep()">Resultados</button>
             </div>
         </div>
