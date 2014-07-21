@@ -153,14 +153,14 @@ function calculateStep2() {
 
 
         actualStep--;
-    } else if (variables > 9 || restricciones > 9) {
-        if (variables > 9) $("#variables").attr("class", "inputError");
+    } else if (variables > 5 || restricciones > 5) {
+        if (variables > 5) $("#variables").attr("class", "inputError");
         else $("#variables").attr("class", "number");
 
-        if (restricciones > 9) $("#restricciones").attr("class", "inputError");
+        if (restricciones > 5) $("#restricciones").attr("class", "inputError");
         else $("#restricciones").attr("class", "number");
 
-        smoke.signal("Maximo valor: 9");
+        smoke.signal("Maximo valor: 5");
         actualStep--;
 
     } else {
@@ -1049,6 +1049,13 @@ function previousStep() {
             showStepFour();
             break;
     }
+
+}
+
+
+function firstStep() {
+   showStepOne();
+   actualStep=0;
 
 }
 

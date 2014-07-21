@@ -48,14 +48,14 @@ Seq[Any](format.raw/*1.32*/("""
         _gaq.push(['_setDomainName', 'simplex.dyndns.biz']);
         _gaq.push(['_trackPageview']);
 
-        (function() """),format.raw/*23.21*/("""{"""),format.raw/*23.22*/("""
+        (function() """),format.raw/*23.21*/(""""""),format.raw/*23.49*/("""{"""),format.raw/*23.50*/(""""""),format.raw/*23.22*/("""
             var ga = document.createElement('script');
             ga.type = 'text/javascript';
             ga.async = true;
             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(ga, s);
-        """),format.raw/*30.9*/("""}"""),format.raw/*30.10*/(""")();
+        """),format.raw/*30.9*/(""""""),format.raw/*30.36*/("""}"""),format.raw/*30.37*/(""""""),format.raw/*30.10*/(""")();
     </script>
 
 </head>
@@ -89,11 +89,11 @@ Seq[Any](format.raw/*1.32*/("""
     """),_display_(Seq[Any](/*62.6*/content)),format.raw/*62.13*/("""
 </section>
 
-  <div id="footer">
-      <div class="container text-center" style="background-color: rgba(0, 0, 0, 0.88);width: 30%;padding-right: 0px;padding-left: 0px;border-radius: 5px;">
-          <p class="text-muted" style="color: white;margin-bottom: 0px;padding-top: 10px;padding-bottom: 10px;padding-right: 10px;padding-left: 10px;">Final IO - 14/07/2014 - Kevin Stessens, Tomás Mateus</p>
-      </div>
-  </div>
+<div id="footer">
+    <div class="container text-center" style="background-color: rgba(0, 0, 0, 0.88);width: 30%;padding-right: 0px;padding-left: 0px;border-radius: 5px;">
+        <p class="text-muted" style="color: white;margin-bottom: 0px;padding-top: 10px;padding-bottom: 10px;padding-right: 10px;padding-left: 10px;">Final IO - 14/07/2014 - Kevin Stessens, Tomás Mateus</p>
+    </div>
+</div>
 
 </body>
 
@@ -103,9 +103,9 @@ Seq[Any](format.raw/*1.32*/("""
 <script src='"""),_display_(Seq[Any](/*76.15*/routes/*76.21*/.Assets.at("javascripts/simplexController.js"))),format.raw/*76.67*/("""' type="text/javascript"></script>
 <script src='"""),_display_(Seq[Any](/*77.15*/routes/*77.21*/.Assets.at("javascripts/webSocket.js"))),format.raw/*77.59*/("""' type="text/javascript"></script>
 <script type="text/javascript">
-    $(function() """),format.raw/*79.18*/("""{"""),format.raw/*79.19*/("""
+    $(function() """),format.raw/*79.18*/(""""""),format.raw/*78.46*/("""{"""),format.raw/*78.47*/(""""""),format.raw/*79.19*/("""
         initWebSocket(""""),_display_(Seq[Any](/*80.25*/routes/*80.31*/.AppController.socket().webSocketURL(request))),format.raw/*80.76*/("""");
-    """),format.raw/*81.5*/("""}"""),format.raw/*81.6*/(""");
+    """),format.raw/*81.5*/(""""""),format.raw/*80.32*/("""}"""),format.raw/*80.33*/(""""""),format.raw/*81.6*/(""");
 </script>
 </html>
 """))}
@@ -120,11 +120,11 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Jul 12 22:27:34 GMT-03:00 2014
-                    SOURCE: /Users/Tomi/Desktop/simplex/app/views/main.scala.html
-                    HASH: aca18504d10a9abca090a6581d96d52c8dd4a2c4
-                    MATRIX: 727->1|834->31|1011->173|1025->179|1085->218|1173->270|1188->276|1253->319|1341->371|1356->377|1413->412|1501->464|1516->470|1572->504|1660->556|1675->562|1734->599|1827->656|1842->662|1896->694|1947->709|1974->714|2253->965|2282->966|2679->1336|2708->1337|3730->2323|3757->2328|3827->2363|3856->2370|4331->2809|4346->2815|4410->2857|4495->2906|4510->2912|4566->2946|4651->2995|4666->3001|4733->3046|4818->3095|4833->3101|4901->3147|4986->3196|5001->3202|5061->3240|5173->3324|5202->3325|5263->3350|5278->3356|5345->3401|5380->3409|5408->3410
-                    LINES: 26->1|29->1|37->9|37->9|37->9|38->10|38->10|38->10|39->11|39->11|39->11|40->12|40->12|40->12|41->13|41->13|41->13|42->14|42->14|42->14|43->15|43->15|51->23|51->23|58->30|58->30|85->57|85->57|90->62|90->62|101->73|101->73|101->73|102->74|102->74|102->74|103->75|103->75|103->75|104->76|104->76|104->76|105->77|105->77|105->77|107->79|107->79|108->80|108->80|108->80|109->81|109->81
+                    DATE: Mon Jul 21 12:41:47 ART 2014
+                    SOURCE: /Volumes/ARCHIVOS/Fuck U/Cursadas/Tercero/IO/final/iofinal/app/views/main.scala.html
+                    HASH: ffe4205fedb4b6b1060461ce42f1953d4e7cb998
+                    MATRIX: 727->1|834->31|2281->1450|2310->1451|2763->1876|2792->1877|5276->4333|5305->4334|5539->4540|5568->4541
+                    LINES: 26->1|29->1|51->23|51->23|58->30|58->30|106->78|106->78|108->80|108->80
                     -- GENERATED --
                 */
             

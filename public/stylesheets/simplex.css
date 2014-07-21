@@ -26,7 +26,7 @@ nav li a {
 
 .inputError {
     border: 1px solid #f34e3e;
-    width: 48px;
+    width: 90px;
 }
 
 #document.titulo {
@@ -88,7 +88,7 @@ nav li:hover {
 }
 
 .number {
-    width: 48px;
+    width: 90px;
 }
 
 p label {
@@ -126,7 +126,7 @@ p label {
 }
 
 #tablaDeSimplex td {
-    width: 66px;
+    width: 80px;
     text-align: center;
     vertical-align: middle;
     border: 3px solid #6B6B6B;
@@ -224,8 +224,8 @@ label {
     text-align: center;
     vertical-align: top;
     margin-top: 90px;
-    width: 600px;
-    height: 100%;
+    width: 900px;
+    height: auto;
     border-radius: 6px;
     -moz-border-radius: 8px; /* Firefox */
     -webkit-border-radius: 8px; /* Safari y Chrome */
@@ -242,8 +242,8 @@ label {
     text-align: center;
     vertical-align: top;
     margin-top: 90px;
-    width: 600px;
-    height: 100%;
+    width: 900px;
+    height: auto;
     border-radius: 6px;
     -moz-border-radius: 8px; /* Firefox */
     -webkit-border-radius: 8px; /* Safari y Chrome */

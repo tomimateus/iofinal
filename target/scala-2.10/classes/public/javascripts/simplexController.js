@@ -153,14 +153,14 @@ function calculateStep2() {
 
 
         actualStep--;
-    } else if (variables > 9 || restricciones > 9) {
-        if (variables > 9) $("#variables").attr("class", "inputError");
+    } else if (variables > 5 || restricciones > 5) {
+        if (variables > 5) $("#variables").attr("class", "inputError");
         else $("#variables").attr("class", "form-control-2 number");
 
-        if (restricciones > 9) $("#restricciones").attr("class", "inputError");
+        if (restricciones > 5) $("#restricciones").attr("class", "inputError");
         else $("#restricciones").attr("class", "form-control-2 number");
 
-        smoke.signal("Maximo valor: 9");
+        smoke.signal("Maximo valor: 5");
         actualStep--;
 
     } else {
@@ -189,7 +189,7 @@ function calculateStep2() {
             var restriccion = document.createElement("p");
 
             var restriccionLabel = document.createElement("span");
-            restriccionLabel.innerHTML = i + ". ";
+            restriccionLabel.innerHTML = (i+1) + ". ";
             restriccion.appendChild(restriccionLabel);
 
             for (var j = 0; j < variables; j++) {
@@ -1112,6 +1112,12 @@ function previousStep() {
             showStepFour();
             break;
     }
+
+}
+
+function firstStep() {
+   showStepOne();
+   actualStep=0;
 
 }
 

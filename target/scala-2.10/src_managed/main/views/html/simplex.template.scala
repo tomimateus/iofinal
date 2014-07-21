@@ -71,12 +71,12 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(title = "SIMPLEX SOLVER")/*1.32*/ {_disp
         </div>
         </br>
         <div>
-        <div class="b-div" style="display: inline-block; float: left;">
-            <button type="button" class="btn btn-success" onclick="previousStep()"><</button>
-        </div>
-        <div class="b-div">
-            <button type="button" class="btn btn-success" onclick="nextStep()">></button>
-        </div>
+            <div class="b-div" style="display: inline-block; float: left;">
+                <button type="button" class="btn btn-success" onclick="previousStep()"><</button>
+            </div>
+            <div class="b-div">
+                <button type="button" class="btn btn-success" onclick="nextStep()">></button>
+            </div>
         </div>
     </div>
 
@@ -128,10 +128,18 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(title = "SIMPLEX SOLVER")/*1.32*/ {_disp
         <div id="valorFuncional">
         </div>
         </br>
-        <div class="b-div"  style="margin-bottom: 30px">
-            <button style="float: left" type="button" class="btn btn-success" onclick="previousStep()"><</button>
+                <div>
+            <div class="b-div" style="display: inline-block; float: left">
+                <button type="button" class="btn btn-success" onclick="previousStep()"><</button>
+            </div>
+            <div class="b-div">
+                <button type="button" class="btn btn-success" onclick="firstStep()">Volver al inicio</button>
+            </div>
         </div>
+
     </div>
+
+
 
 </div>
 
@@ -147,11 +155,11 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(title = "SIMPLEX SOLVER")/*1.32*/ {_disp
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Jul 12 22:27:34 GMT-03:00 2014
-                    SOURCE: /Users/Tomi/Desktop/simplex/app/views/simplex.scala.html
-                    HASH: 28009b5f4a5dd87c3cc93d6b67b9842973a99f77
-                    MATRIX: 798->1|836->31|875->33|3774->2895|3790->2901|3849->2937
-                    LINES: 29->1|29->1|29->1|131->103|131->103|131->103
+                    DATE: Mon Jul 21 13:15:17 ART 2014
+                    SOURCE: /Volumes/ARCHIVOS/Fuck U/Cursadas/Tercero/IO/final/iofinal/app/views/simplex.scala.html
+                    HASH: e9b92008219a659d56af3d01ab22e87b752d2815
+                    MATRIX: 798->1|836->31|875->33
+                    LINES: 29->1|29->1|29->1
                     -- GENERATED --
                 */
             
