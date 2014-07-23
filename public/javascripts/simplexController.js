@@ -1027,13 +1027,15 @@ function showTableau(matrix) {
                 column.innerHTML = expression;
             } else if (numberPattern.test(matrix[j][i])) {
                 var number = parseFloat(matrix[j][i]);
-                column.innerHTML = Math.round((number) * 100) / 100;
+                column.innerHTML = Math.round((number) * 10000) / 10000;
             } else if (matrix[j][i] == "Infinity" || matrix[j][i] > 10000000) {
                 column.innerHTML = "&#8734;";
-            } else if (matrix[j][i] == "Infinity" || matrix[j][i] < 0.0001) {
+            } else if (matrix[j][i] == "Infinity" || (matrix[j][i] < 0.00001 && matrix[j][i] > -0.00001)) {
                 column.innerHTML = "0";
             } else if (matrix[j][i] + "" == "NaN") {
                 column.innerHTML = "-";
+            } else if ((matrix[j][i] + "").indexOf("E") != -1) {
+                column.innerHTML = parseFloat(matrix[j][i]);
             } else if (((matrix[j][i] + "").split(".")).length == 2) {
                 var aux = ((matrix[j][i] + "").split("."));
                 column.innerHTML = aux[1] == "0" ? aux[0] : matrix[j][i];
