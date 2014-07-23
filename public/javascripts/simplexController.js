@@ -1031,7 +1031,13 @@ function showTableau(matrix) {
             } else if (matrix[j][i] == "Infinity" || matrix[j][i] > 10000000) {
                 column.innerHTML = "&#8734;";
             } else if (matrix[j][i] == "Infinity" || (matrix[j][i] < 0.00001 && matrix[j][i] > -0.00001)) {
-                column.innerHTML = "0";
+                var pivot = pivotIndex.split(",");
+                var pivotCol = parseInt(pivot[0]);
+                if (j == pivotCol) {
+                    column.innerHTML = "0*";
+                } else {
+                    column.innerHTML = "0";
+                }
             } else if (matrix[j][i] + "" == "NaN") {
                 column.innerHTML = "-";
             } else if ((matrix[j][i] + "").indexOf("E") != -1) {
