@@ -67,6 +67,8 @@ public class Solver {
     private boolean doIteration() {
         String[][] newTableau = getTableauCopy();
         int zijIndex = getZijIndex(tableau);
+        System.out.println("zij index " + String.valueOf(zijIndex));
+
         int thetaIndex = getThetaIndex(tableau, zijIndex);
 
         if (thetaTies.size() < results.size()) {
@@ -299,23 +301,31 @@ public class Solver {
         for (int i = 3; i < columns - 1; i++) {
             String zjName = tableau[i][1];
             if (!base.contains(zjName)) {
+                System.out.println(parseMExpression(tableau[i][rows - 1], mValue));
                 zjs.add(parseMExpression(tableau[i][rows - 1], mValue));
             }
         }
 
         Collections.sort(zjs);
+        for (Double zj : zjs) {
+            System.out.println("orndenados " + zj);
+        }
         double zj = 0;
         if (!zjs.isEmpty()) {
             if (objective == Objective.MAX) {
                 zj = zjs.get(0);
             } else {
                 zj = zjs.get(zjs.size() - 1);
+                System.out.println("entro a minimizar...el ZJ que tiene es: " + zj);
+
             }
 
 
             for (int i = 3; i < columns - 1; i++) {
                 String zjName = tableau[i][1];
+                System.out.println(String.valueOf(i) + " - " + zjName);
                 if (!base.contains(zjName)) {
+                    System.out.println(String.valueOf(i) + " - " + zjName + " entro al if");
                     double value = parseMExpression(tableau[i][rows - 1], mValue);
                     if (value == zj) {
                         return i;
@@ -328,7 +338,8 @@ public class Solver {
     }
 
     private double parseMExpression(String formula, int mValue) {
-        if (!(formula.matches("[0-9]M"))) {
+        String[] ms = formula.split("M");
+        if( ms.length == 0 || ms[0] == ""){
             formula = formula.replace("M", "1M");
         }
         if (formula.contains("0*")) {
@@ -340,6 +351,9 @@ public class Solver {
         ScriptEngine engine = mgr.getEngineByName("JavaScript");
         try {
             Object aux = engine.eval(result);
+            System.out.println(Double.parseDouble(aux.toString()));
+            System.out.println( "El de arriba es" + formula);
+
             return Double.parseDouble(aux.toString());
         } catch (Exception e) {
             System.out.println("ERROR: Cant parse expression: " + formula + " (" + results.size() + " iterations)");
