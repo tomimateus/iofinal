@@ -33,19 +33,19 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(title = "SIMPLEX SOLVER")/*1.32*/ {_disp
 
     <div id="panelPaso1">
         <h3>Seleccionar Cantidad</h3>
-        <form accept-charset="UTF-8" action="/players" class="form-horizontal" id="new_player" method="post">
+        <form accept-charset="UTF-8" action="/players" class="form-horizontal" id="new_player" method="post" style="display: inline-block;">
             <div id="a-div">
                 <input name="utf8" type="hidden" value="✓">
                 <input name="authenticity_token" type="hidden" value="CMXrI0MGkDWKu9011hx6zN5orQYzuoee7760PGr78YA=">
             </div>
             <div class="form-group">
-                <label class="col-md-4 control-label" for="variables"> Variables: </label>
+                <label class="col-md-4 control-label" for="variables" style="margin-right:2px;"> Variables: </label>
                 <div class="col-md-4">
                     <input autofocus="autofocus" class="form-control number" id="variables" required="required" type="text">
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-md-4 control-label" for="restricciones">Restricciones: </label>
+                <label class="col-md-4 control-label" for="restricciones" style="margin-right:2px;">Restricciones: </label>
                 <div class="col-md-4">
                     <input autofocus="autofocus" class="form-control number" id="restricciones" required="required" type="text">
                 </div>
@@ -128,7 +128,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(title = "SIMPLEX SOLVER")/*1.32*/ {_disp
         <div id="valorFuncional">
         </div>
         </br>
-                <div>
+        <div>
             <div class="b-div" style="display: inline-block; float: left">
                 <button type="button" class="btn btn-success" onclick="previousStep()"><</button>
             </div>
@@ -155,9 +155,9 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(title = "SIMPLEX SOLVER")/*1.32*/ {_disp
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Jul 21 13:15:17 ART 2014
+                    DATE: Tue Aug 05 13:02:53 ART 2014
                     SOURCE: /Volumes/ARCHIVOS/Fuck U/Cursadas/Tercero/IO/final/iofinal/app/views/simplex.scala.html
-                    HASH: e9b92008219a659d56af3d01ab22e87b752d2815
+                    HASH: b2304e71b543c0e5e3ba391516be268ac4301c65
                     MATRIX: 798->1|836->31|875->33
                     LINES: 29->1|29->1|29->1
                     -- GENERATED --

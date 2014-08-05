@@ -42,7 +42,7 @@ Seq[Any](format.raw/*1.32*/("""
     <link rel="shortcut icon" type="image/png" href='"""),_display_(Seq[Any](/*14.55*/routes/*14.61*/.Assets.at("images/favicon.ico"))),format.raw/*14.93*/("""'>
     <title>"""),_display_(Seq[Any](/*15.13*/title)),format.raw/*15.18*/("""</title>
 
-    <script type="text/javascript">
+    <script type="text/javascript" >
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-33549044-1']);
         _gaq.push(['_setDomainName', 'simplex.dyndns.biz']);
@@ -120,10 +120,10 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Jul 21 12:41:47 ART 2014
+                    DATE: Thu Jul 24 14:14:00 ART 2014
                     SOURCE: /Volumes/ARCHIVOS/Fuck U/Cursadas/Tercero/IO/final/iofinal/app/views/main.scala.html
-                    HASH: ffe4205fedb4b6b1060461ce42f1953d4e7cb998
-                    MATRIX: 727->1|834->31|2281->1450|2310->1451|2763->1876|2792->1877|5276->4333|5305->4334|5539->4540|5568->4541
+                    HASH: 2bb8b48c6f7716e674a8c709fad5ccf50a381f0d
+                    MATRIX: 727->1|834->31|2282->1451|2311->1452|2764->1877|2793->1878|5277->4334|5306->4335|5540->4541|5569->4542
                     LINES: 26->1|29->1|51->23|51->23|58->30|58->30|106->78|106->78|108->80|108->80
                     -- GENERATED --
                 */
