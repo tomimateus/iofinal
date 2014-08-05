@@ -93,6 +93,7 @@ function showIterationNumber(iteration, optimal, alternativeSolution, incompatib
     }
     if (iteration == 0) {
         iteration = " Inicial ";
+
     }
     if (thetaTie != "NoTie" && !isIncompatibleSolution) {
         iteration += " Solución Degenerada";
@@ -860,6 +861,7 @@ function calculateZijIndex(matrix) {
 }
 
 function sendMessage(type) {
+    if (type=="next") document.getElementById("prev-1").style.display = "inline-block";
     $("#loadingPanel").show();
     $("#panelDeTabla").hide();
     var json = JSON.stringify(
@@ -1101,6 +1103,11 @@ function parseMExpression(formula, mValue) {
 function nextStep() {
     actualStep++;
     doStep();
+}
+
+function previousStep2() {
+    previousStep();
+    previousStep();
 }
 
 function previousStep() {
